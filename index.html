@@ -4,11 +4,42 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Prosperity Events Planning</title>
+    
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Alex+Brush&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet" />
+
+    <script src="https://cdn.tailwindcss.com"></script>
     
-    <link rel="stylesheet" href="/index.css">
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              hunter: '#31572C',
+              'hunter-light': '#4A7A42',
+              beige: '#F5F5DC',
+              'beige-dark': '#E1D9D1',
+              gold: '#C5A059',
+            },
+            fontFamily: {
+              heading: ['"Alex Brush"', 'cursive'],
+              body: ['"Montserrat"', 'sans-serif'],
+            },
+          },
+        },
+      };
+    </script>
+
+    <style>
+      html { scroll-behavior: smooth; }
+      body { 
+        background-color: #F5F5DC; 
+        color: #31572C; 
+        font-family: 'Montserrat', sans-serif;
+      }
+      .font-heading { font-family: 'Alex Brush', cursive; }
+    </style>
 
     <script type="importmap">
     {
